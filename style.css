@@ -1,0 +1,173 @@
+/* h1{color: red;} */
+/* body{
+    font-family: cursive;
+} */
+/* .credits{
+    font-family: 'Courier New', Courier, monospace;
+} */
+/* font-size */
+/* h1{
+    font-size: 30px;
+} */
+/* percentage */
+/* h1{
+    font-size: 500%;
+} */
+/* default value */
+/* p{
+    font-size: larger;
+} */
+/* p{
+font-size: 3em;
+} */
+/* font-face */
+/* @font-face {
+    font-family: 'test';
+    src: url( ./fonts/Edu_TAS_Beginner/EduTASBeginner-VariableFont_wght.ttf);
+}
+h1{
+font-family: test;
+} */
+
+/* font-weight */
+/* p{
+    font-weight: bolder;
+} */
+/* font-style */
+/* h1{
+    font-style: normal;
+} */
+/* using id selector and comparing 3 styles */
+/* #normal{
+    font-style: normal;
+}
+#italic{
+    font-style: italic;
+}
+#oblique{
+    font-style: oblique;
+} */
+
+
+/* text transformation */
+/* hello guys  <=lower case*/
+/* HELLO GUYS <=UPER CASE */
+/* hello guys How are you doing? <=CAPITALIZE */
+/* h1{
+    text-transform: capitalize;
+} */
+
+ /* text-decoration */
+ /* #none{
+    text-decoration: none;
+ }
+#underline{
+    text-decoration: underline;
+}
+#overline{
+    text-decoration: overline;
+}
+#line-through{
+    text-decoration: line-through;
+}
+#blink{
+    text-decoration:;
+} */
+
+/* line height/leading */
+/* p{
+    line-height: 50px;
+} */
+/* letter and word spacing */
+/* h1{
+    letter-spacing: 5px;
+} */
+
+/* text align */
+/* h1{
+    text-align: center;
+} */
+/* p{
+    text-align: justify;
+} */
+
+/* vertical-alignment */
+/* img{
+    vertical-align: middle;
+} */
+/* text indent */
+/* h1{
+    text-indent: 50px;
+} */
+/* p{
+    text-indent: 50px;
+    text-align: justify;
+} */
+
+/* text shadow */
+/* p{
+    background-color: aqua;
+    color: blueviolet;
+    text-shadow: 1px 5px #035;
+} */
+
+/* first letter 0r first line */
+/* p::first-letter{
+    color: brown;
+} */
+/* p::first-line{
+    color: blueviolet;
+} */
+
+  /* styling links */
+  /* a:link{
+    color: green;
+  }
+  a:visited{
+    color: red;
+  } */
+
+  /* responding to user */
+
+/* hover */
+/* input.btn:hover{
+    color: red;
+}
+input.btn:active{
+    background-color: wheat;
+} */
+/* input.btn:focus{
+    background-color: blue;
+} */
+ /* input.textbox:focus{
+    background-color: black;
+    color: blueviolet;
+ }
+ /* attribute selectors */
+  /* existence */
+  /* h1[name]{
+    color: red;
+  } */
+  /* EQUALITY */
+  /* h1[test="hi"]{
+    color: red;
+  } */
+  /* space */
+  /* h1[test~='jenn']{
+    color: pink;
+    
+  } */
+  /* prefix */
+  /* h1[test^="hi"]{
+    color: red;
+  }
+   */
+   /* SUBSTRING */
+/* h1[test*=ll]{
+    color: red;
+} */
+
+   /* SUFFIX */
+   /* h1[test$="l"]{
+    color: red;
+   } */
